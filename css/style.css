@@ -9044,4 +9044,136 @@ img.lazy-image.loaded {
 .ai-accordion-element{
   border-bottom: 0px;
 }
+/****END AI*********/
 
+
+/****About Us*********/
+
+.about-header-slider-bg{
+  background-image: url('../images/main-slider/about-us-bg.jpg');  
+}
+
+.who-we-are-img{
+  text-align: center;
+}
+
+.about-page-vertical-tab-content{
+  min-height: 450px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .slide-item-about{
+    min-height: 150px !important;
+  }
+  .about-content{
+    padding: 50px 0px;
+    height: 150px !important;
+  }
+  .about-text{
+    font-size: 3rem !important;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  .slide-item-about{
+    min-height: 100px !important;
+  }
+  .about-content{
+    padding: 50px 0px;
+    height: 100px !important;
+  }
+  .about-text{
+    font-size: 3rem !important;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .slide-item-about{
+    min-height: 200px !important;
+  }
+  .about-content{
+    padding: 50px 0px;
+    height: 200px !important;
+  }
+  .about-text{
+    font-size: 4rem !important;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  .slide-item-about{
+    min-height: 300px !important;
+  }
+  .about-content{
+    padding: 50px 0px;
+    height: 300px !important;
+  }
+  .about-text{
+    font-size: 5rem !important;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  .slide-item-about{
+    min-height: 350px !important;
+  }
+  .about-content{
+    padding: 50px 0px;
+    height: 350px !important;
+  }
+  .about-text{
+    font-size: 5rem !important;
+  }
+}
+
+/****END About Us*********/
+
+/****Mission & Vision*********/
+.mission-vision-section{
+  /* background-color: aliceblue; */
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.mv-img{
+  /* border: 5px solid #f74883; */
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px 0px rgba(247, 72, 131, 0.18);
+  max-width: 300px;
+}
+.mv-text{
+  text-transform: capitalize;
+}
+.mv-img-div{
+  text-align: center;
+}
+.mv-mission-row{
+  vertical-align: middle;
+}
+.mv-vision-row{
+
+}
+.mv-text-div{
+  display: flex;
+  align-items: center;
+}
+@media only screen 
+and (max-width : 768px){
+  .mv-text{
+    padding: 30px 0px;
+  }
+}
+/****END Mission & Vision*********/

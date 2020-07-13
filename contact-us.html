@@ -173,10 +173,10 @@
         <div class="slide-item contact-slide-item">
           <div class="auto-container">
             <div class="content-box">
-              <div class="round-layer"></div>
+              <!-- <div class="round-layer"></div> -->
 
-              <div class="content">
-                <div class="inner">
+              <div class="content-cu ">
+                <div class="text-center">
                   <h1>
                     Get <strong>In Touch</strong> With Us
                   </h1>
@@ -185,9 +185,9 @@
                   </div>
                 </div>
               </div>
-              <div class="content-image">
+              <!-- <div class="content-image">
                 <img src="images/main-slider/contact-us.png" alt="" title="" />
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -201,31 +201,107 @@
 
   <div class="auto-container">
     <div class="row clearfix">
+
+      <div class="col-md-8">
+        <form action="#" class="contact-form">
+          <div class="form-group">
+            <input type="text" name="txtName-" class="form-control" placeholder="Name *" value="" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtEmail" class="form-control" placeholder="Company Name *" value="" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtPhone" class="form-control" placeholder="Phone *" value="" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtPhone" class="form-control" placeholder="Email *" value="" required>
+          </div>
+          <div class="form-group">
+            <span class="wpcf7-list-item first"><input type="checkbox" name="checkbox-144[]" value="Back Office and Business Support">&nbsp;<span class="wpcf7-list-item-label">Back Office and Business Support</span></span><br>
+            <span class="wpcf7-list-item"><input type="checkbox" name="checkbox-144[]" value="Customer Support Services">&nbsp;<span class="wpcf7-list-item-label">Customer Support Services</span></span><br>
+            <span class="wpcf7-list-item last"><input type="checkbox" name="checkbox-144[]" value="Ecommerce Support Services">&nbsp;<span class="wpcf7-list-item-label">Ecommerce Support Services</span></span>
+          </div>
+          <div class="form-group">
+            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" rows="13" style="margin-top: 0px; margin-bottom: 0px;"></textarea>
+          </div>
+          <div class="col-md-6">
+            <div class="captcha">
+              <div class="spinner">
+                <label>
+                  <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                  <span class="checkmark"><span>&nbsp;</span></span>
+                </label>
+              </div>
+              <div class="text">
+                I'm not a robot
+              </div>
+              <div class="logo">
+                <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/"/>
+                <p>reCAPTCHA</p>
+                <small>Privacy - Terms</small>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-6 col-lg-8 col-xs-6 text-right" style="margin-top: 15px;"> -->
+            <button class="btn btn-primary mt-4 btn-send-cu">Send</button>
+          <!-- </div> -->
+        </form>
+      </div>
+
       <!--Left Column-->
-      <div class="left-column col-lg-5 col-md-5 col-sm-5 about-transform-cu p-4">
+      <div class="col-md-4 about-transform-cu">
         <div class="inner">
           <!-- <div class="sec-title">             -->
             <div class="lower-text">
               <strong>TransForm Solution</strong> is a global provider of integrated business solutions. We are known for combining state-of-the-art technology with unparalleled business sense to create the peace of mind solutions that companies need. We are an industry leader in the world of virtual business solutions, but it didn’t start out that way.
             </div>
+            <div class="lower-text">
+              <p>Drop us a mail at the email id below and we will get back to you shortly.</p>
+             <!-- <strong><a href="mailto:sales@transformsolution.com">sales@transformsolution.com</a> </strong> -->
+             <p>
+              <span class="tel-ico">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <a class="icon-cu" href="mailto:sales@transformsolution.com">sales@transformsolution.com</a>
+            </p>
+            </div>
           <!-- </div>           -->
         </div>
+        <div class="addres-wrapper pt-5">
+          <h6 class="country-cu">U.S.A</h6>        
+            <strong>Corporate Headquarters</strong>
+            <p class="address-content">
+              TransForm Solution, Inc.
+              106 A 6th Street, Suite 900
+              Littlefield Building Center
+              Austin, TX 78701
+            </p>                
+            <p>
+              <span class="tel-ico">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <a class="icon-cu" href="tel:732 829 6935">732 829 6935</a>
+            </p>
+        </div>        
+        <div class="addres-wrapper">
+          <h6 class="country-cu">INDIA</h6>         
+            <strong>Center of Excellence</strong>
+            <p class="address-content">
+              TransForm Solution Pvt. Ltd.
+              Ahura Mazda, Siddiq Street
+              Timaliyawad, Nanpura
+              Surat<br> 395 00
+            </p>                
+            <p>
+              <span class="tel-ico">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <a class="icon-cu" href="tel:955 819 0000">955 819 0000</a>
+            </p>
+        </div>
       </div>
-      
-      <div class="bg-white col-lg-3 col-md-3 col-sm-3 contact-us-f-des m-4">
-        <div class="inner">
-            <div class="sec-title">            
-              <div class="lower-text">
-                <p>Drop us a mail at the email id below and we will get back to you shortly.</p>
-               <strong><a href="mailto:sales@transformsolution.com">sales@transformsolution.com</a> </strong>
-              </div>
-            </div>      
-          </div>
-          <div class="contact-symbol-contactus-page">
-            <i class="fas fa-envelope"></i>
-          </div>  
-      </div>
-      <div class="bg-white col-lg-3 col-md-3 col-sm-3 contact-us-f-des m-4">
+
+      <!-- <div class="bg-white col-lg-3 col-md-3 col-sm-3 contact-us-f-des m-4">
         <div class="inner">
             <div class="sec-title">            
               <div class="lower-text">
@@ -246,194 +322,15 @@
         <div class="contact-symbol-contactus-page">
           <i class="fas fa-users"></i>
         </div>
-      </div>      
+      </div>       -->
     </div>
   </div>
 </section>
 
 <!-------Contact us Description END------>
 
-<!-------Contact us start------>
-    <section class="contact-form-section-cu bg-light">
-        <div class="container">
-            <div class="contact-us-wrapper bg-white">
-              <div class="row">
-                <div class="col-md-12">
-                    <!---Address-wrapper------->
-                    <!-- <div class="row text-center my-5 ">
-                      <div class="col-md-6 col-sm-6 col-lg-4 offset-lg-2">
-                        <div class="addres-wrapper">
-                          <h3>U.S.A</h3>
-                    
-                            <h6>Corporate Headquarters</h6>
 
-                            <p class="address-content">
-                              TransForm Solution, Inc.
-                              106 A 6th Street, Suite 900
-                              Littlefield Building Center
-                              Austin, TX 78701
-                            </p>
-                            
-                            <p >
-                              <span class="tel-ico">
-                                <i class="fas fa-phone-alt"></i>
-                              </span>
-                              <a style="color: #29a89f; font-size: 22px; padding: 15px;" href="tel:732 829 6935">732 829 6935</a>
-                            </p>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-sm-6 col-lg-4">
-                        <div class="addres-wrapper">
-                          <h3>INDIA</h3>
-                     
-                            <h6>Center of Excellence</h6>
-                            <p class="address-content">
-                              TransForm Solution Pvt. Ltd.
-                              Ahura Mazda, Siddiq Street
-                              Timaliyawad, Nanpura
-                              Surat<br> 395 00
-                            </p>
-                            
-                            <p>
-                              <span class="tel-ico">
-                                <i class="fas fa-phone-alt"></i>
-                              </span>
-                              <a style="color: #29a89f; font-size: 22px; padding: 15px;" href="tel:955 819 0000">955 819 0000</a>
-                            </p>
-                        </div>
-                      </div>
-                    </div> -->
-                    <!-----Address-row-->
 
-                    <div class="row">
-                      <div class="col-md-12">
-                        <p style="font-size: 32px;">
-                          Fill in the form below to connect with us
-                        </p>
-                        <br>
-                      </div>
-                    </div>
-                   
-                      <form action="#" class="contact-form">
-                        <div class="row">
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <input type="text" name="txtName-" class="form-control" placeholder="Name *" value="" required>
-                              </div>
-                              <div class="form-group">
-                                  <input type="text" name="txtEmail" class="form-control" placeholder="Company Name *" value="" required>
-                              </div>
-                              <div class="form-group">
-                                  <input type="text" name="txtPhone" class="form-control" placeholder="Phone *" value="" required>
-                              </div>
-                              <div class="form-group">
-                                <input type="text" name="txtPhone" class="form-control" placeholder="Email *" value="" required>
-                            </div>
-                            <div class="form-group">
-                              <span class="wpcf7-list-item first"><input type="checkbox" name="checkbox-144[]" value="Back Office and Business Support">&nbsp;<span class="wpcf7-list-item-label">Back Office and Business Support</span></span><br>
-                              <span class="wpcf7-list-item"><input type="checkbox" name="checkbox-144[]" value="Customer Support Services">&nbsp;<span class="wpcf7-list-item-label">Customer Support Services</span></span><br>
-                              <span class="wpcf7-list-item last"><input type="checkbox" name="checkbox-144[]" value="Ecommerce Support Services">&nbsp;<span class="wpcf7-list-item-label">Ecommerce Support Services</span></span>
-                            </div>
-
-                          </div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                  <textarea name="txtMsg" class="form-control" placeholder="Your Message *" rows="13" style="margin-top: 0px; margin-bottom: 0px;"></textarea>
-                              </div>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-6 col-xs-6 col-lg-4">
-                            <div class="captcha">
-                              <div class="spinner">
-                                <label>
-                                  <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
-                                  <span class="checkmark"><span>&nbsp;</span></span>
-                                </label>
-                              </div>
-                              <div class="text">
-                                I'm not a robot
-                              </div>
-                              <div class="logo">
-                                <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/"/>
-                                <p>reCAPTCHA</p>
-                                <small>Privacy - Terms</small>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-6 col-lg-8 col-xs-6 text-right" style="margin-top: 15px;">
-                            <button class="btn btn-primary">Send</button>
-                          </div>
-                        </div>
-                      </form>
-                </div>
-              </div>     
-              
-              <!-- <div class="contact-symbol">
-                <i class="fas fa-paper-plane"></i>
-              </div> -->
-          </div>
-        </div>
-    </section>
-<!--------Contact-us-end-->
-  
-    <!-- Section Maps/Locations -->
-    <section class="maps-location-cu bg-white">
-      <div class="container-fluid">
-        <div class="row text-center">
-          <div class="col-md-6 col-sm-6 my-5">
-            <div class="addres-wrapper">
-              <h3>U.S.A</h3>        
-                <h6>Corporate Headquarters</h6>
-
-                <p class="address-content">
-                  TransForm Solution, Inc.
-                  106 A 6th Street, Suite 900
-                  Littlefield Building Center
-                  Austin, TX 78701
-                </p>
-                
-                <p >
-                  <span class="tel-ico">
-                    <i class="fas fa-phone-alt"></i>
-                  </span>
-                  <a style="color: #29a89f; font-size: 22px; padding: 15px;" href="tel:732 829 6935">732 829 6935</a>
-                </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.909783103799!2d-97.7444786846286!3d30.268151614924236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48640a92382467d0!2sTransForm%20Solution!5e0!3m2!1sen!2sin!4v1594306799144!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-      </div>
-<div class="theme-separator"></div>
-      <div class="container-fluid">
-        <div class="row text-center">
-          <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14880.401789364829!2d72.81362500000003!3d21.18816832224174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdfdb14f51e669317!2sTransForm+Solution!5e0!3m2!1sen!2sin!4v1519816730495" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-          </div>
-          <div class="col-md-6 col-sm-6 my-5">
-            <div class="addres-wrapper">
-              <h3>INDIA</h3>
-         
-                <h6>Center of Excellence</h6>
-                <p class="address-content">
-                  TransForm Solution Pvt. Ltd.
-                  Ahura Mazda, Siddiq Street
-                  Timaliyawad, Nanpura
-                  Surat<br> 395 00
-                </p>
-                
-                <p>
-                  <span class="tel-ico">
-                    <i class="fas fa-phone-alt"></i>
-                  </span>
-                  <a style="color: #29a89f; font-size: 22px; padding: 15px;" href="tel:955 819 0000">955 819 0000</a>
-                </p>
-            </div>
-          </div>          
-      </div>
-    </section>
 
     <!-- END Section Maps/Locations -->
   
